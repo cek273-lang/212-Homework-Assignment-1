@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- root element -->
+<html>
+    <!-- head element -->
+    <head>
+        <!-- title element -->
+        <title>
+            Personal Portfolio
+        </title>
+        <!-- style element -->
+        <style>
+        /* whole document formattinf */
+        body {font-family: 'Courier New', monospace;}
+
+        /* text formatting */
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        p {margin-left: 10px; margin-right: 10px;}
+
+        /* line formatting */
+        hr {border: 1px solid black;}
+
+        /* table formatting */
+        table {width: 100%;}
+        td {text-align: center;}
+
+        /* custom formatting for the contact me section */
+        .contactInfo {text-align: center; border-width: 1px; border-radius: 5px; border-style: solid; border-color: black; padding-left: 20px; padding-right: 20px;}
+        </style>
+    </head>
+    <!-- body element -->
+    <body>
+        <!-- site header -->>
+        <div style ="background-color: lightslategray;">
+            <hr />
+            <!-- name -->
+            <h2 style = "margin: 0px; margin-left: 10px; text-align: left;">Ash Keefer</h2>
+            <!-- title -->
+            <h1 style = "margin: 0px; ">Portfolio</h1>
+            <hr />
+        </div>
+
+        <!-- introduction section -->
+        <h2>Introduction</h2>
+            <p>Hi my name is Ash, I am a sophmore at NAU pursuing a bachelor's degree in computer science.</p>
+            <p>My first exposure to the world of computer science came through HTML. My older brother, a sophmore in highscool at the time, was taking an introductory course in html and web development. I was incredibly intrigued by his coursework and I decided that I would keep up for the fun of it.</p>
+            <p>Though I have since moved on to more "exciting" languages, I thouroughly enjoyed the time i spent learning HTML and the projects that i was able to create with it.</p>
+        <hr />
+
+        <!-- skills sections -->
+        <h2>Skills</h2>
+            <p>Over the course of my studies, I’ve gained experience in several programming languages. Some of the languages I’ve explored include:</p>
+
+            <!-- list of skills -->
+            <ul>
+                <li><mark>C#</mark> & <mark>C++</mark><sup>11</sup> — Object-oriented programming, console applications</li>
+                <li><mark>Python</mark> — Scripting, problem-solving, and beginner AI projects</li>
+                <li><mark>HTML</mark> & <mark>CSS</mark> — Building responsive websites and layouts</li>
+                <li><mark>JavaScript</mark> — Adding interactivity and simple DOM manipulation</li>
+            </ul>
+
+            <!-- throw some random formatting tags here -->
+            <p>I also have a foundational understanding of <ins>data structures</ins> and <ins>algorithms</ins>, giving me the tools to analyze problems and design efficient solutions.</p>
+            <p>Currently, I’m expanding my knowledge of <b>computer architecture</b> and <b>assembly language</b><sub>(low-level programming)</sub></p>
+        <hr />
+
+        <!-- projects section -->
+        <h2>Projects</h2>
+        <p>This is where we run into a bit of an issue. I has spent my life constantly moving around and unfortunatly there are a great number of machines and hard drives that were unable to move with me. </p>
+        <p>The devices that i am using currently unfortunatly do not contain any personal or project files from before the beginning of this year.</p>
+        <p>luckily for me, Professor Ayotuyi Tosin said that I can use dummy data, so I will display a couple place-holder projects to demostrate </p>
+
+        <!-- dummy project 1-->
+        <div style="margin: 20px; padding: 10px; border: 1px solid black; border-radius: 8px;">
+            <h3>📘 Project 1: Student Grade Tracker</h3>
+                <p>A simple Python program that allows students to input grades and calculates averages. Includes basic file I/O for storing results.</p>
+                <p><i>Skills used:</i> Python, File Handling, Basic Algorithms</p>
+                <a href="#">View Project</a>
+        </div>
+
+        <!-- dummy project (not really) 2-->
+        <div style="margin: 20px; padding: 10px; border: 1px solid black; border-radius: 8px;">
+            <h3>🌐 Project 2: Personal Portfolio Website</h3>
+                <p>A fully responsive personal portfolio built using HTML and CSS, showcasing skills, experience, and contact information.</p>
+                <p><i>Skills used:</i> HTML, CSS, Design Principles</p>
+                <a href="#">View Project</a>
+        </div>
+
+        <!-- dummy project 3-->
+        <div style="margin: 20px; padding: 10px; border: 1px solid black; border-radius: 8px;">
+            <h3>🎮 Project 3: Console Tic-Tac-Toe Game</h3>
+                <p>A two-player Tic-Tac-Toe game built in C++, running entirely in the console. Features win detection and replay functionality.</p>
+                <p><i>Skills used:</i> C++, Loops, Arrays</p>
+                <a href="#">View Project</a>
+        </div>
+
+        <!-- dummy project 4-->
+        <div style="margin: 20px; padding: 10px; border: 1px solid black; border-radius: 8px;">
+            <h3>🤖 Project 4: Chatbot Prototype</h3>
+                <p>A basic chatbot built with simple pattern matching, able to answer a set of pre-programmed questions. Prototype for learning AI concepts.</p>
+                <p><i>Skills used:</i> Python, Logic Structures</p>
+                <a href="#">View Project</a>
+        </div>
+
+        <!-- contact me section/footer -->
+        <div style ="background-color: lightslategray;">
+        <hr />
+        <h2>Contact Me</h2>
+        <!-- table to display contact info on a grid -->
+        <table>
+            <!-- row of images -->
+            <tr>
+                <th><img src="NAU_Logo.png"   style="width:55px;height: 40px;" ></th>
+                <th><img src="Gmail_Logo.png" style="width:50px;height: 50px;"></th>
+                <th><img src="Phone_Icon.png" style="width:50px;height: 50px;"></th>
+                <th><img src="Insta_Logo.png" style="width:50px;height: 50px;"></th>
+            </tr>
+            <!-- row of contact info discriptions -->
+            <tr>
+                <td><b>School Email</b></td>
+                <td><b>Personal Email</b></td>
+                <td><b>Phone Number</b></td> 
+                <td><b>Instagram</b></td>
+            </tr>
+            <!-- row of actual contact info -->
+            <tr>
+                <td class = "contactInfo">cek273@nau.edu</td>
+                <td class = "contactInfo">ashkeefer36@gmail.com</td>
+                <td class = "contactInfo">+1(623)252-7955</td> 
+                <td class = "contactInfo">@insanity_bento</td>
+            </tr>
+        </table>
+        <hr />
+        </div>
+        <br />
+    </body>
+</html>
